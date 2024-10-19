@@ -1,0 +1,119 @@
+body {
+    background-color: gray;
+    background-image: url('img/bg-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.box {
+    width: 400px; /* Fixed width */
+    height: auto;
+    background-color: rgba(141, 141, 141, 0.3);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ipt1, .ipt2 {
+    width: 200px; /* Fixed width */
+    padding: 0.5rem;
+    height: 0.2rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1rem;
+}
+
+p {
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Afacad Flux';
+    color: white;
+}
+
+.eml {
+    text-align: left;
+    font-size: 1.1rem;
+    font-family: 'Afacad Flux';
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.esqeuci, .text {
+    display: inline;
+    word-wrap: normal;
+}
+
+.snh {
+    text-align: left;
+    font-size: 1.1rem;
+    font-family: 'Afacad Flux';
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.checkt {
+    font-size: 1rem;
+    color: white;
+    font-family: 'Afacad Flux';
+}
+
+.check {
+    margin-right: 0.2rem;
+}
+
+.check, .checkt {
+position: relative;
+left: -50px
+}
+
+.texto {
+    font-size: 1rem;
+    font-family: 'Afacad Flux';
+    color: rgb(156, 156, 156);
+    transition: all 0.5s;
+}
+
+.texto:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+.linha {
+width: 200px;
+height: 5px;
+border-radius: 2.5px;
+background-color: orange;
+position: relative;
+top: -21px;
+left: 12px;
+border:none;
+}
+.titulo {
+    color: white;
+    font-family: 'Afacad Flux';
+}
+.botao {
+    width: 200px;
+    padding: 0.1rem;
+    border: none;
+    border-radius: 40px;
+    background-image: linear-gradient(to bottom right, rgb(168, 113, 42), rgb(253, 155, 64));
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Afacad Flux';
+    transition: all 0.3s ease;
+}
+.snh, p {
+    display: inline;
+}
+.botao:hover {
+    transform: scale(1.05);
+}
